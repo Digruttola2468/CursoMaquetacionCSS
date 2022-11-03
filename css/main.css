@@ -271,3 +271,43 @@ footer p {
 .contact-main-container img {
     width: 100px;
 }
+
+
+/*----------------------Profile----------------------*/
+.profile-main-container {
+    width: 100%;
+    max-height: 550px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 50px 50px;
+}
+.profile-main-container div {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+.profile-main-container img {
+    width: 200px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.profile-description {
+
+}
+
+.profile-proyectos-container {
+
+}
+.profile-proyectos-container h2 {
+    text-align: center;
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 30px;
+}
+.profile-proyectos-container div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 30px;
+}
